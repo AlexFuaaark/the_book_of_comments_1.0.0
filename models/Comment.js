@@ -9,11 +9,11 @@ const userSchema = new Schema ( {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
         },
-    ]
+    ],
     createdAt: {
         type: Date,
         trim: true,
-    }
+    },
     rating: {
         type: Number,
         trim: true,
@@ -21,7 +21,7 @@ const userSchema = new Schema ( {
     title: {
         type: String,
         trim: true,
-    }
+    },
     description: {
         type: String,
         trim: true,
