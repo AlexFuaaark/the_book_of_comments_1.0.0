@@ -2,7 +2,7 @@
 const { expect } = require ('chai')
 const { userCreateQ } = require('./queries')
 const { user } = require('./data')
-const gqlRequest = require('../gqlRequest')
+const gqlRequest = require('../../gqlRequest')
 
 let respData: null = null;
 let postData = null;
